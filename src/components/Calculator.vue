@@ -88,17 +88,17 @@ export default {
 
 input[type="text"] {
   width: 100%;
-  padding: 30px; /* Increased padding for a taller input area */
+  padding: 30px;
   margin: 0;
   box-sizing: border-box;
   border: 0.03rem solid #ccc;
-  border-bottom: 1px solid black; /* Maintain the black bottom border */
+  border-bottom: 1px solid black;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   text-align: right;
   background-color: black;
   color: white;
-  font-size: 24px; /* Increased font size for larger numbers */
+  font-size: 24px;
 }
 
 .buttons {
@@ -118,16 +118,16 @@ button {
 }
 
 button:hover {
-  background-color: #3d3d3d; /* Slightly lighter gray for hover on number buttons */
+  background-color: #3d3d3d;
 }
 
 button.operation:hover {
-  background-color: #ff9c40; /* Slightly lighter orange for hover on operation buttons */
+  background-color: #ff9c40;
 }
 
 button.ac:hover,
 button.ans-button:hover {
-  background-color: #dcdcdc; /* Slightly lighter gray for hover on AC and Ans buttons */
+  background-color: #dcdcdc;
 }
 
 button.operation {
